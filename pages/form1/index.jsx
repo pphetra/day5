@@ -1,9 +1,15 @@
+import { useForm } from "react-hook-form";
+
 export default function Form1Page() {
   // use react-hook-form
 
+  const onSubmit = (data) => {
+    alert(JSON.stringify(data, null, 2));
+  };
+
   return (
     <div className="p-8">
-      <h1 className="text-2xl">Form 1</h1>
+      <h1 className="text-2xl">Register</h1>
       <form className="flex flex-col gap-8">
         <div className="flex flex-col">
           <label htmlFor="name">Name</label>
