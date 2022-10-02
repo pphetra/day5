@@ -10,6 +10,7 @@ export default function Form1Page() {
   return (
     <div className="p-8">
       <h1 className="text-2xl">Register</h1>
+      {/* ร้อย onSubmit ด้วย function handleSubmit ที่ได้จาก react-hook-form */}
       <form className="flex flex-col gap-8">
         <div className="flex flex-col">
           <label htmlFor="name">Name</label>

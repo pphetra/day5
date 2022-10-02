@@ -50,7 +50,7 @@ xs = [1,2,3]
     errors.name?.message;
     ```
   - validate confirmPassword ต้องเท่ากับ password
-    - hint: ใช้ watch
+    - hint: ใช้ watch และ custom validate function
       ```javascript
       {...register("confirmPassword", {
         required: "กรุณาระบุ password",
@@ -60,3 +60,5 @@ xs = [1,2,3]
         }
       })}
       ```
+
+## React select Exercise
