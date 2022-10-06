@@ -5,3 +5,4 @@
 - [Exercise 3: React-select](./ex3.md)
 
 - [One to Many form](./oneToMany.md)
+- [Dynamic form](./dynamicForm.md)
